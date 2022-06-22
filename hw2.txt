@@ -1,0 +1,10 @@
+1. На локальном репозитории сделать ветки - git branch или git checkout -b
+2. Запушить на внешний репозиторий - git push -u origin
+3. В ветке сделать текстовый документ - touch
+4. Запушить структуру баг репорта на внешний репозиторий - git push -u origin
+5. Вмержить ветку баг репорт в main - git merge Bag-Reports -m "merge"
+6. Запушить main на внешний репозиторий - git push -u origin
+7. В ветке CheckLists набросать структуру чек листа - cat >> checklist.txt
+8. Запушить на внешний репозиторий - git push -u origin
+9. На внешнем репозитории сделать pull request ветки checklist в main - на сайте github нажимаем "pull requests","compare & pull request","create pull request","commit merge", "merge pull request"
+10. Синхронизируем локальную и внешнуюю main - git pull  
