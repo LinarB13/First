@@ -1,8 +1,8 @@
 1. На локальном репозитории сделать ветки - git branch или git checkout -b
-2. Запушить на внешний репозиторий - git push -u origin
+2. Запушить на внешний репозиторий - git push -u origin --all
 3. В ветке сделать текстовый документ - touch
 4. Запушить структуру баг репорта на внешний репозиторий - git push -u origin
-5. Вмержить ветку баг репорт в main - git merge Bag-Reports -m "merge"
+5. Вмержить ветку баг репорт в main - переключаемся на папку main затем git merge Bag-Reports -m "merge"
 6. Запушить main на внешний репозиторий - git push -u origin
 7. В ветке CheckLists набросать структуру чек листа - cat >> checklist.txt
 8. Запушить на внешний репозиторий - git push -u origin
